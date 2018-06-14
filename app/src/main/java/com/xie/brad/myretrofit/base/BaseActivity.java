@@ -16,7 +16,7 @@ public class BaseActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        StatusBarUtils.setWindowStatusBarColor(this,R.color.colorPrimaryDark);
+        StatusBarUtils.setWindowStatusBarColor(this, R.color.tranSparent);
     }
 
     @Override
