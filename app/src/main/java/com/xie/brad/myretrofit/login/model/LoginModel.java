@@ -33,7 +33,6 @@ public class LoginModel implements Serializable {
     }
 
 
-
     private List<AuthorityBean> authority;
 
     public String getAdmin_description() {
