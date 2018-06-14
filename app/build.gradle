@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.xie.brad.myretrofit"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true
+        }
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api 'com.android.support:appcompat-v7:23.0.0'
+    api 'junit:junit:4.12'
+    implementation 'com.zhy:okhttputils:2.6.2'
+    implementation 'io.reactivex:rxandroid:1.1.0'
+    /*rx-android-java*/
+    api 'io.reactivex:rxjava:+'
+    api 'com.trello:rxlifecycle:+'
+    api 'com.trello:rxlifecycle-components:+'
+    /*rotrofit*/
+    api 'com.squareup.retrofit2:retrofit:+'
+    api 'com.squareup.retrofit2:converter-gson:+'
+    api 'com.squareup.retrofit2:adapter-rxjava:+'
+    api 'com.google.code.gson:gson:+'
+    /*注入工具*/
+    api 'com.jakewharton:butterknife:5.1.1'
+    /*加载框*/
+    implementation 'com.kaopiz:kprogresshud:1.1.0'
+//    compile 'com.kaopiz:kprogresshud:1.1.0'
+
+}
