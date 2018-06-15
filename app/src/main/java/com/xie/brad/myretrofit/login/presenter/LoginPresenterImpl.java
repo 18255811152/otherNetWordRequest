@@ -25,8 +25,7 @@ public class LoginPresenterImpl implements LoginPresenter {
     String password;
 
     /**
-     * @param loginView
-     * 构造方法没传进来View，再处理完登陆逻辑后，调用View里面的方法，来对界面进行操作
+     * @param loginView 构造方法没传进来View，再处理完登陆逻辑后，调用View里面的方法，来对界面进行操作
      */
     public LoginPresenterImpl(LoginView loginView) {
         this.loginView = loginView;
@@ -35,8 +34,7 @@ public class LoginPresenterImpl implements LoginPresenter {
 
     /**
      * @param username
-     * @param password
-     * 登陆的逻辑
+     * @param password 登陆的逻辑
      */
     @Override
     public void login(String username, String password) {
@@ -55,8 +53,7 @@ public class LoginPresenterImpl implements LoginPresenter {
 
     /**
      * @param username
-     * @param password
-     * 登陆网络请求
+     * @param password 登陆网络请求
      */
     private void getLoginData(String username, String password) {
 

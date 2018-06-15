@@ -28,7 +28,7 @@ public class ShowMessageActivity extends BaseActivity implements IShowMessageVie
         BTNsearch_Msg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                iShowMessage.onClick(findViewById(R.id.search_Msg));
+                iShowMessage.onClick();
             }
         });
 
@@ -38,5 +38,10 @@ public class ShowMessageActivity extends BaseActivity implements IShowMessageVie
     @Override
     public void showMsg(String msg) {
         Toast.makeText(ShowMessageActivity.this, msg, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void showPrg(String msg) {
+
     }
 }

@@ -1,7 +1,5 @@
 package com.xie.brad.myretrofit.showMessage.preserter;
 
-import android.view.View;
-
 import com.xie.brad.myretrofit.showMessage.view.IShowMessageView;
 import com.xie.brad.myretrofit.showMessage.view.ShowMessageActivity;
 
@@ -17,8 +15,13 @@ public class IShowMessageImpl implements IShowMessagePreserter {
     }
 
     @Override
-    public void onClick(View View) {
+    public void onClick() {
         iShowMessageView.showMsg("ssssssssssssss");
+    }
+
+    @Override
+    public void showPrg() {
+        iShowMessageView.showPrg("正在加载");
     }
 
 

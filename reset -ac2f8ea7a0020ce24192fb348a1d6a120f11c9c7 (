@@ -1,0 +1,17 @@
+[33mcommit 9f553a068114ed8e353160c17a7c3f621bcd40f6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: jack <jackies123>
+Date:   Thu Jun 14 17:53:54 2018 +0800
+
+    不知道这个是不是mvp，好奇怪的感觉  还是自己写错了
+
+[33mcommit ac2f8ea7a0020ce24192fb348a1d6a120f11c9c7[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: jack <jackies123>
+Date:   Thu Jun 14 15:36:00 2018 +0800
+
+    commit
+
+[33mcommit 25f4c8f0a22fefeb14182072842c47c2e8470dc0[m
+Author: jack <jackies123>
+Date:   Thu Jun 14 15:22:56 2018 +0800
+
+    这是别人的网络请求框架   拿来参考一下
