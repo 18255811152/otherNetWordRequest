@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim1" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim2" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim3" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim4" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim5" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim6" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim7" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim8" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim9" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim10" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim11" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim12" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim13" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim15" />
+    <item
+        android:duration="60"
+        android:mipmap="@mipmap/main_loading_anim16" />
+
+
+</animation-list>

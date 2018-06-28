@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvp-retrofit-rxjavas.iml" filepath="$PROJECT_DIR$/mvp-retrofit-rxjavas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/otherNetWordRequest.iml" filepath="$PROJECT_DIR$/otherNetWordRequest.iml" />
     </modules>
   </component>
 </project>
