@@ -13,7 +13,6 @@ import butterknife.InjectView;
 import butterknife.OnClick;
 
 /**
- * Created by dell on 2017/10/19.
  */
 
 public class LoginActivity extends BaseActivity implements LoginView {

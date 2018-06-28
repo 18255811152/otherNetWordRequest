@@ -10,7 +10,6 @@ import java.util.Map;
 
 
 /**
- * Created by wangjian on 2016/9/21.
  */
 public class ActivityUtil {
 

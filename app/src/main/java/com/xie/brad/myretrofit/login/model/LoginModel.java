@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by MVPHelper on 2016/09/13
  */
 
 public class LoginModel implements Serializable {

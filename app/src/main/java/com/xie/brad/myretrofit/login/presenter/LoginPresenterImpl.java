@@ -14,7 +14,6 @@ import com.xie.brad.myretrofit.retrofit.SubjectPost;
 import rx.Observable;
 
 /**
- * Created by dell on 2017/10/19.
  */
 
 public class LoginPresenterImpl implements LoginPresenter {
